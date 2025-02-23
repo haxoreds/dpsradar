@@ -1,0 +1,100 @@
+Feb 15 08:34:20 4254911-haxored node[1463]:     _url: 'wss://92.63.176.63/v2',
+Feb 15 08:34:20 4254911-haxored node[1463]:     _req: null,
+Feb 15 08:34:20 4254911-haxored node[1463]:     [Symbol(shapeMode)]: false,
+Feb 15 08:34:20 4254911-haxored node[1463]:     [Symbol(kCapture)]: false
+Feb 15 08:34:20 4254911-haxored node[1463]:   },
+Feb 15 08:34:20 4254911-haxored node[1463]:   [Symbol(kType)]: 'error',
+Feb 15 08:34:20 4254911-haxored node[1463]:   [Symbol(kError)]: Error: connect ETIMEDOUT 92.63.176.63:443
+Feb 15 08:34:20 4254911-haxored node[1463]:       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+Feb 15 08:34:20 4254911-haxored node[1463]:     errno: -110,
+Feb 15 08:34:20 4254911-haxored node[1463]:     code: 'ETIMEDOUT',
+Feb 15 08:34:20 4254911-haxored node[1463]:     syscall: 'connect',
+Feb 15 08:34:20 4254911-haxored node[1463]:     address: '92.63.176.63',
+Feb 15 08:34:20 4254911-haxored node[1463]:     port: 443
+Feb 15 08:34:20 4254911-haxored node[1463]:   },
+Feb 15 08:34:20 4254911-haxored node[1463]:   [Symbol(kMessage)]: 'connect ETIMEDOUT 92.63.176.63:443'
+Feb 15 08:34:20 4254911-haxored node[1463]: }
+Feb 15 08:34:20 4254911-haxored node[1463]: Node.js v22.14.0
+Feb 15 08:34:20 4254911-haxored systemd[1]: [0;1;39m[0;1;31m[0;1;39mdpsradar.service: Main process exited, code=exited, status=1/FAILURE[0m
+Feb 15 08:34:20 4254911-haxored systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdpsradar.service: Failed with result 'exit-code'.[0m
+Feb 15 08:34:20 4254911-haxored systemd[1]: dpsradar.service: Consumed 1.910s CPU time.
+Feb 15 08:34:20 4254911-haxored systemd[1]: dpsradar.service: Scheduled restart job, restart counter is at 7.
+Feb 15 08:34:20 4254911-haxored systemd[1]: Stopped dpsradar node js.
+Feb 15 08:34:20 4254911-haxored systemd[1]: dpsradar.service: Consumed 1.910s CPU time.
+Feb 15 08:34:20 4254911-haxored systemd[1]: Started dpsradar node js.
+Feb 15 08:34:22 4254911-haxored node[1476]: Sat, 15 Feb 2025 05:34:22 GMT express-session deprecated req.secret; provide secret option at file:/home/node/dpsradar/dist/index.js:465:12
+Feb 15 08:34:22 4254911-haxored node[1476]: Setting up static file serving from: /home/node/dpsradar/uploads
+Feb 15 08:34:22 4254911-haxored node[1476]: 8:34:22 AM [express] serving on port 5000
+Feb 15 08:37:25 4254911-haxored node[1476]: file:///home/node/dpsradar/node_modules/@neondatabase/serverless/index.mjs:1345
+Feb 15 08:37:25 4254911-haxored node[1476]: o?t(o):n(u)},"cb"),s=new r(function(o,u){n=o,t=u}).catch(o=>{throw Error.captureStackTrace(
+Feb 15 08:37:25 4254911-haxored node[1476]:                                                                          ^
+Feb 15 08:37:25 4254911-haxored node[1476]: ErrorEvent {
+Feb 15 08:37:25 4254911-haxored node[1476]:   [Symbol(kTarget)]: WebSocket {
+Feb 15 08:37:25 4254911-haxored node[1476]:     _events: [Object: null prototype] {
+Feb 15 08:37:25 4254911-haxored node[1476]:       error: [Function: onError] {
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kIsForOnEventAttribute)]: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kListener)]: [Function (anonymous)]
+Feb 15 08:37:25 4254911-haxored node[1476]:       },
+Feb 15 08:37:25 4254911-haxored node[1476]:       message: [Function: onMessage] {
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kIsForOnEventAttribute)]: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kListener)]: [Function (anonymous)]
+Feb 15 08:37:25 4254911-haxored node[1476]:       },
+Feb 15 08:37:25 4254911-haxored node[1476]:       close: [Function: onClose] {
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kIsForOnEventAttribute)]: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kListener)]: [Function (anonymous)]
+Feb 15 08:37:25 4254911-haxored node[1476]:       },
+Feb 15 08:37:25 4254911-haxored node[1476]:       open: [Function: onOpen] {
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kIsForOnEventAttribute)]: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:         [Symbol(kListener)]: [Function: handleWebSocketOpen]
+Feb 15 08:37:25 4254911-haxored node[1476]:       }
+Feb 15 08:37:25 4254911-haxored node[1476]:     },
+Feb 15 08:37:25 4254911-haxored node[1476]:     _eventsCount: 4,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _maxListeners: undefined,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _binaryType: 'arraybuffer',
+Feb 15 08:37:25 4254911-haxored node[1476]:     _closeCode: 1006,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _closeFrameReceived: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _closeFrameSent: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _closeMessage: Buffer(0) [Uint8Array] [],
+Feb 15 08:37:25 4254911-haxored node[1476]:     _closeTimer: null,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _errorEmitted: true,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _extensions: {},
+Feb 15 08:37:25 4254911-haxored node[1476]:     _paused: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _protocol: '',
+Feb 15 08:37:25 4254911-haxored node[1476]:     _readyState: 3,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _receiver: null,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _sender: null,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _socket: null,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _bufferedAmount: 0,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _isServer: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _redirects: 0,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _autoPong: true,
+Feb 15 08:37:25 4254911-haxored node[1476]:     _url: 'wss://92.63.176.63/v2',
+Feb 15 08:37:25 4254911-haxored node[1476]:     _req: null,
+Feb 15 08:37:25 4254911-haxored node[1476]:     [Symbol(shapeMode)]: false,
+Feb 15 08:37:25 4254911-haxored node[1476]:     [Symbol(kCapture)]: false
+Feb 15 08:37:25 4254911-haxored node[1476]:   },
+Feb 15 08:37:25 4254911-haxored node[1476]:   [Symbol(kType)]: 'error',
+Feb 15 08:37:25 4254911-haxored node[1476]:   [Symbol(kError)]: Error: connect ETIMEDOUT 92.63.176.63:443
+Feb 15 08:37:25 4254911-haxored node[1476]:       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+Feb 15 08:37:25 4254911-haxored node[1476]:     errno: -110,
+Feb 15 08:37:25 4254911-haxored node[1476]:     code: 'ETIMEDOUT',
+Feb 15 08:37:25 4254911-haxored node[1476]:     syscall: 'connect',
+Feb 15 08:37:25 4254911-haxored node[1476]:     address: '92.63.176.63',
+Feb 15 08:37:25 4254911-haxored node[1476]:     port: 443
+Feb 15 08:37:25 4254911-haxored node[1476]:   },
+Feb 15 08:37:25 4254911-haxored node[1476]:   [Symbol(kMessage)]: 'connect ETIMEDOUT 92.63.176.63:443'
+Feb 15 08:37:25 4254911-haxored node[1476]: }
+Feb 15 08:37:25 4254911-haxored node[1476]: Node.js v22.14.0
+Feb 15 08:37:25 4254911-haxored systemd[1]: [0;1;39m[0;1;31m[0;1;39mdpsradar.service: Main process exited, code=exited, status=1/FAILURE[0m
+Feb 15 08:37:25 4254911-haxored systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdpsradar.service: Failed with result 'exit-code'.[0m
+Feb 15 08:37:25 4254911-haxored systemd[1]: dpsradar.service: Consumed 1.805s CPU time.
+Feb 15 08:37:25 4254911-haxored systemd[1]: dpsradar.service: Scheduled restart job, restart counter is at 8.
+Feb 15 08:37:25 4254911-haxored systemd[1]: Stopped dpsradar node js.
+Feb 15 08:37:25 4254911-haxored systemd[1]: dpsradar.service: Consumed 1.805s CPU time.
+Feb 15 08:37:25 4254911-haxored systemd[1]: Started dpsradar node js.
+Feb 15 08:37:26 4254911-haxored node[1493]: Sat, 15 Feb 2025 05:37:26 GMT express-session deprecated req.secret; provide secret option at file:/home/node/dpsradar/dist/index.js:465:12
+Feb 15 08:37:26 4254911-haxored node[1493]: Setting up static file serving from: /home/node/dpsradar/uploads
+Feb 15 08:37:26 4254911-haxored node[1493]: 8:37:26 AM [express] serving on port 5000
+Feb 15 08:39:50 4254911-haxored node[1493]: 8:39:50 AM [express] GET /api/register 200 in 14ms
+Feb 15 09:00:51 4254911-haxored node[1493]: 9:00:51 AM [express] GET /api/user 401 in 5ms
+Feb 15 09:01:26 4254911-haxored node[1493]: 9:01:26 AM [express] GET /api/user 401 in 2ms
